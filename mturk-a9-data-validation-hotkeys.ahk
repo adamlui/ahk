@@ -18,7 +18,7 @@ Hotkeys:
  Alt+Q - Toggle Suspend
  Win+Q - Exit
 
-Note: To activate auto-submission, replace line 26 with "var autoSubmit = true"
+Note: To activate auto-submission, replace line 26 with "autoSubmit = true"
 */
 
 #singleInstance force
