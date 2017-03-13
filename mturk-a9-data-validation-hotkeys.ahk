@@ -22,7 +22,6 @@ NOTE: To activate auto-submission, replace line 26 with "autoSubmit = true"
 #singleInstance force
 
 autoSubmit = false
-
 marX := 93, marY := 680
 
 loop 4 {
