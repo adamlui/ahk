@@ -5,6 +5,7 @@ Author: adaaaam
 Namespace: https://mturkers.org/adaaaam
 Requester URL: https://www.mturk.com/mturk/searchbar?selectedSearchType=hitgroups&requesterId=A3HLF55H6JSTI0
 Download URL: https://raw.githubusercontent.com/adaaaam/ahk/master/mturk-a9-data-validation-hotkeys.ahk
+
 HOTKEYS:
  A or 1 - Strongly Dissimilar
  S or 2 - Somewhat Dissimilar
@@ -14,6 +15,7 @@ HOTKEYS:
  E or Enter - Submit HIT
  Alt+Q - Toggle Suspend
  Win+Q - Exit
+
 NOTE: To activate auto-submission, replace line 26 with "autoSubmit = true"
 */
 
@@ -51,5 +53,4 @@ selector:
 		send % autoSubmit = "true" ? "{enter}" :
 	}
 return
-
 e::send {enter}
