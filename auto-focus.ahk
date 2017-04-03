@@ -1,9 +1,9 @@
 /*
 
 Name: Auto-Focus
-Version: 2016.10.18
+Namespace: https://mturkers.org/forum/t/auto-focus.6/
+Version: 2017.04.02
 Author: adaaaam
-Namespace: https://mturkers.org/adaaaam
 
 Notes:
 - Alt+Shift+F to toggle auto-focus. Win+Q to exit.
@@ -26,7 +26,6 @@ return
 
 notify(alert, status = 0) {
 	global
-	transparency = 200  ; Set transparency level (0-255)
 	stringUpper, status, status
 	; Define notification properties and elements
 	gui +alwaysOnTop +toolWindow -caption +E0x20
@@ -36,18 +35,6 @@ notify(alert, status = 0) {
 	alert := alert " " status
 	guiControl,, notification, % alert
 	gui, show, autosize
-	opacity = 0
-	; Fade shit
-	loop % transparency / 8 {	
-		winSet, transparent, % opacity
-		sleep 1
-		opacity += 8
-	}
-	sleep 375  ; Maintain notification
-	loop % transparency / 8 {
-		winSet, transparent, % transparency
-		sleep 1
-		transparency -= 8
-	}
+	sleep 375
 	gui destroy
 }
