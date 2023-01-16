@@ -1,13 +1,13 @@
 /*
 
 Name: Auto-Focus
-Namespace: https://mturkers.org/forum/t/auto-focus.6/
-Version: 2017.04.02
-Author: adaaaam
+Version: 2023.01.16
+Author: Adam Lui
+Namespace: https://elonsucks.org/@adam
+Description: Brings window under cursor into focus automatically.
 
 Notes:
 - Alt+Shift+F to toggle auto-focus. Win+Q to exit.
-- When active, window under cursor is brought to focus.
 
 */
 
