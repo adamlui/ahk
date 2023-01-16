@@ -1,9 +1,14 @@
 /*
+
 Name: Gamepad Mapper
-Namespace: https://twitter.com/adamllui
-Version: 2016.06.16
-Author: adaaaam
-Notes: Win+Q to exit.
+Version: 2023.01.16
+Author: Adam Lui
+Namespace: https://elonsucks.org/@adam
+Description: Maps gamepads to keyboard using SNES layout.
+
+Notes:
+- Win+Q to exit.
+
 */
 
 #persistent
