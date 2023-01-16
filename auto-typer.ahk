@@ -1,12 +1,16 @@
 /*
- Name: Auto-Typer
- Version: 2022.06.04
- Namespace: https://elonsucks.org/@adam
- Description: Automatically sends messages to apps like Discord.
- Notes:
-  - Set message in line 13
-  - Set delay between messages (in milliseconds) in line 12
-  - Activate by pressing ` (backquote) key
+
+Name: Auto-Typer
+Version: 2022.06.04
+Author: Adam Lui
+Namespace: https://elonsucks.org/@adam
+Description: Automatically sends messages to apps like Discord.
+
+Notes:
+- Set message in line 13
+- Set delay between messages (in milliseconds) in line 12
+- Activate by pressing ` (backquote) key
+  
 */
 
 #singleInstance force 
